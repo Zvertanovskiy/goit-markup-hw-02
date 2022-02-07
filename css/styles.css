@@ -30,7 +30,7 @@ body {
 .logo-colorize {
   color: var(--accent-color);
 }
-overtitle {
+.overtitle {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -48,6 +48,7 @@ overtitle {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: inherit;
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
@@ -58,6 +59,7 @@ overtitle {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: inherit;
 }
 .contacts-header:hover,
 .contacts-header:focus {
@@ -151,7 +153,7 @@ overtitle {
   line-height: 1.62;
   /* text-align: center; */
   letter-spacing: 0.03em;
-  cursor:pointer;
+  cursor: pointer;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
