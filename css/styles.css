@@ -59,7 +59,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: var(--secondary-color);
 }
 .contacts-header:hover,
 .contacts-header:focus {
@@ -131,6 +131,7 @@ body {
 /* =======START FOOTER======= */
 .acsual-adress {
   font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -141,6 +142,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: inherit;
   /* color: rgba(255, 255, 255, 0.6); */
 }
 /* =======END FOOTER======= */
@@ -148,6 +150,7 @@ body {
 /* =======START PORTFOLIO======= */
 
 .portfolio-btn {
+	font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
